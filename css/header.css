@@ -1,0 +1,21 @@
+#header {
+  position: relative;
+  height: 40vw;
+  background-image: url(../images/back-left.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  overflow: hidden;
+}
+
+.back-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+/* .main-logo {
+  position: absolute;
+  top: 5vw;
+  width: 20vw;
+} */
