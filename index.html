@@ -7,9 +7,12 @@
 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/information.css">
+    <link rel="stylesheet" href="./css/servises.css">
+    <link rel="stylesheet" href="./css/commands.css">
+    <link rel="stylesheet" href="./css/partners.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="shortcut icon" href="images/logo.jpg">
+    <link rel="shortcut icon" href="images/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="NGzDHFS6AqztZQF93KEHGoAEKxM26ZftuYZXPcqWeic" />
     <meta name="description" content="">
@@ -27,40 +30,88 @@
     <!--  -->
 
     <div id="header">
-      <img class="back-right" src="./images/back-right.png">
+      <div class="back"></div>
+      <img class="back-right" src="./images/back-right.png" draggable="false">
+      <div class="consultation">
+        <div class="top">ОНЛАЙН</div>
+        <div class="top">ПЛАТФОРМА</div>
+        <div class="bottom">для юридических консультаций</div>
+        <a href="#form"><div class="button">Получить консультацию</div> </a>
+      </div>
     </div>
 
 
     <div id="content">
+      <div class="header-title">
+        <div class="consultation">
+          <div class="top">ОНЛАЙН</div>
+          <div class="top">ПЛАТФОРМА</div>
+          <div class="bottom">для юридических консультаций</div>
+          <a href="#form"><div class="button">Получить консультацию</div> </a>
+        </div>
+        <canvas id="canvas" width="2000" height="1700"></canvas>
+      </div>
+
       <div class="information">
         <div class="information-img">
-          <img src="./images/full-logo.jpg">
+          <img src="./images/about.jpg">
         </div>
         <div class="information-description">
           <div class="information-header">
-            YURIST24
+            YURIST24.TJ
           </div>
           <div class="information-text">
             <div class="information-title">
-              About company
+              ОНЛАЙН ПЛАТФОРМА ДЛЯ ЮРИДИЧЕСКИХ КОНСУЛЬТАЦИЙ
             </div>
-            Information text ...
-            fasldjf;lasokdjf;laksdf
-            dsfa;sdlfj;asdkjfasd
-            fdsfasd;lfjalksdjf;alskdfjas;dlkjf
-            fasdhfhsdf f dsahkjf hasdkl has
+            ОНЛАЙН ПЛАТФОРМА ДЛЯ ЮРИДИЧЕСКИХ КОНСУЛЬТАЦИЙ - первая онлайн-платформа
+            для получение юридических консультаций.
+            Основная цель платформы - это экономия времени,
+            средств и предоставление услуг для любого слоя населения.
+            Вы можете просто оставить свой вопрос со своими данными в форме
+            ниже и мы в кратчайщие сроки дадим ответ и покажем путь решение Вашей задачи.
           </div>
         </div>
       </div>
 
       <div class="servises">
-        <div class="servises-item"></div>
+        <div class="servises-item">
+          <div class="servises-img"><img src="images/logo.png"></div>
+          <div class="servises-title">Семейные споры</div>
+          <ol class="servises-description">
+            <li>Расторжение брака</li>
+            <li>Взыскание алиментов</li>
+            <li>Раздел имущества</li>
+            <li>Споры о детях</li>
+          </ol>
+        </div>
 
-        <div class="servises-item"></div>
+        <div class="servises-item">
+          <div class="servises-img"><img src="images/logo.png"></div>
+          <div class="servises-title">Уголовные дела</div>
+          <div class="servises-description">
+            Уголовные дела - один из самых сложных разделов юридической практики.
+            Многое зависит именно от выбора адвоката
+          </div>
+        </div>
 
-        <div class="servises-item"></div>
+        <div class="servises-item">
+          <div class="servises-img"><img src="images/logo.png"></div>
+          <div class="servises-title">Наследственные споры</div>
+          <div class="servises-description">
+            Оформление наследства содержит много нюансов,
+            решить все это без помощи адвоката не просто
+          </div>
+        </div>
 
-        <div class="servises-item"></div>
+        <div class="servises-item">
+          <div class="servises-img"><img src="images/logo.png"></div>
+          <div class="servises-title">Наследственные споры</div>
+          <div class="servises-description">
+            Оформление наследства содержит много нюансов,
+            решить все это без помощи адвоката не просто
+          </div>
+        </div>
       </div>
 
 
@@ -91,19 +142,54 @@
       </div>
     </div>
 
+    <div class="partners">
+      <div class="partner-item">
+        <div class="partner-img">
+          <img src="images/1.png">
+        </div>
+        <div class="partner-description">
+          ;flasdjflaskdjl
+           asd fasd fa fasd fsd fasd fasd fasd
+        </div>
+      </div>
+
+      <div class="partner-item">
+        <div class="partner-img">
+          <img src="images/2.png">
+        </div>
+        <div class="partner-description">
+          ;flasdjflaskdjl
+           asd fasd fa fasd fsd fasd fasd fasd
+        </div>
+      </div>
+
+      <div class="partner-item">
+        <div class="partner-img">
+          <img src="images/logo.png">
+        </div>
+        <div class="partner-description">
+          ;flasdjflaskdjl
+           asd fasd fa fasd fsd fasd fasd fasd
+        </div>
+      </div>
+    </div>
 
     <div id="footer">
-      <form>
-        <input type="text" required name="name" placeholder="Имя">
-        <input type="email" required name="mail" placeholder="E-mail">
-        <input type="tel" required name="phone" placeholder="Введите номер телефона">
-        <textarea required name="message" placeholder="Опишите проблему пожалуйста"></textarea>
-        <input type="submit" value="Отправить">
-      </form>
+      <a name="form">
+        <form>
+          <!-- info@yurist24.tj -->
+          <input type="text" required name="name" placeholder="Имя">
+          <input type="email" required name="mail" placeholder="E-mail">
+          <input type="tel" required name="phone" placeholder="Введите номер телефона">
+          <textarea required name="message" placeholder="Опишите проблему пожалуйста"></textarea>
+          <input type="submit" value="Отправить">
+        </form>
+      </a>
 
       <div class="footer-data"></div>
     </div>
 
+    <script src="./js/canvas.js"></script>
     <!-- <script src="./js/doctype.js"></script> -->
   </body>
 </html>
