@@ -12,6 +12,7 @@
 
 .commands-item {
   margin: 30px 20px;
+  text-align: center;
 }
 
 .commands-img {
@@ -33,7 +34,23 @@
   margin: 10px 0;
 }
 
+.commands-description div {
+  margin: 10px;
+  color: #27A8E0;
+}
+
 @media screen and (min-width: 992px) {
+  .commands-item {
+    width: 250px;
+  }
+
+  .commands-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
   .commands-item {
     width: 200px;
   }
@@ -44,24 +61,13 @@
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 992px) {
-  .commands-item {
-    width: 150px;
-  }
-
-  .commands-img {
-    width: 150px;
-    height: 150px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .commands-item {
-    width: 150px;
+    width: 200px;
   }
 
   .commands-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 }

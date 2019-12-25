@@ -1,9 +1,12 @@
+.partners-block {
+  background: #fff;
+  padding: 50px 20px;
+}
+
 .partners {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: #fff;
-  padding: 50px 20px;
 }
 
 .partner-item {
@@ -14,8 +17,6 @@
   padding: 10px;
   margin: 10px;
   box-sizing: border-box;
-  /* box-shadow: 0 0 10px #384240;
-  border-radius: 10px; */
   cursor: pointer;
 }
 

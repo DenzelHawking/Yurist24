@@ -1,8 +1,11 @@
+.servises-block {
+  margin: 10vw 0;
+}
+
 .servises {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 10vw 0;
 }
 
 .servises-item {

@@ -10,4 +10,4 @@ context.lineTo(2000, 1400);
 context.lineTo(2000, 0);
 context.lineTo(1000, 300);
 context.fill();
-// context.closePath();
+context.closePath();
