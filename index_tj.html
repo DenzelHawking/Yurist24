@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Yurist24</title>
-    <link rel="stylesheet" href="./css/doctype.css">
-
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/information.css">
@@ -172,10 +170,9 @@
 
     <div id="footer">
       <a name="form">
-        <form>
-          <!-- info@yurist24.tj -->
+        <form id="formElem">
           <input type="text" required name="name" placeholder="Имя">
-          <input type="email" required name="mail" placeholder="E-mail">
+          <input type="email" required name="email" placeholder="E-mail">
           <input type="tel" required name="phone" placeholder="Введите номер телефона">
           <textarea required name="message" placeholder="Опишите проблему пожалуйста"></textarea>
           <input type="submit" value="Отправить">
@@ -200,5 +197,6 @@
     </div>
 
     <script src="./js/canvas.js"></script>
+    <script src="./js/sendForm.js"></script>
   </body>
 </html>
